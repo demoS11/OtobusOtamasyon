@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bilet">
+
+    <TextView
+        android:id="@+id/txtViewBiletFiyati"
+        android:layout_width="123dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="18dp"
+        android:text="Bilet Fiyati"
+        android:textSize="18dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtViewSigorta" />
+
+    <TextView
+        android:id="@+id/txtViewSigorta"
+        android:layout_width="123dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="18dp"
+        android:text="Sigorta"
+        android:textSize="17sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtViewTarih" />
+
+    <TextView
+        android:id="@+id/txtViewTarih"
+        android:layout_width="123dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="21dp"
+        android:text="Tarih"
+        android:textSize="18dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtViewKoltukNo" />
+
+    <TextView
+        android:id="@+id/txtViewKoltukNo"
+        android:layout_width="123dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="18dp"
+        android:text="Koltuk No"
+        android:textSize="17sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtViewNerdenNereye" />
+
+    <TextView
+        android:id="@+id/txtViewBiletBilgileri"
+        android:layout_width="138dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="123dp"
+        android:text="Bilet Bilgileri"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtViewAdSoyad"
+        android:layout_width="123dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="17dp"
+        android:text="Ad Soyad"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtViewBiletBilgileri" />
+
+    <TextView
+        android:id="@+id/txtViewNerdenNereye"
+        android:layout_width="135dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="18dp"
+        android:text="Nereden-Nereye"
+        android:textSize="18dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtViewAdSoyad" />
+
+    <TextView
+        android:id="@+id/txtViewToplamTutar"
+        android:layout_width="162dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginBottom="11dp"
+        android:text="Toplam Tutar"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/odemeBtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtViewBiletFiyati" />
+
+    <Button
+        android:id="@+id/odemeBtn"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:onClick="odeme"
+        android:text="Ödeme"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtViewToplamTutar" />
+
+    <TextView
+        android:id="@+id/txtViewTl"
+        android:layout_width="55dp"
+        android:layout_height="38dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="80dp"
+        android:text="TL"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".db.Seferler">
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="384dp"
+        android:layout_height="414dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bilgilerView" />
+
+    <TextView
+        android:id="@+id/bilgilerView"
+        android:layout_width="378dp"
+        android:layout_height="49dp"
+        android:gravity="center_vertical"
+        android:text="Bilgiler"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:typeface="serif"
+        app:layout_constraintBottom_toTopOf="@+id/listView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:onClick="koltukGetir"
+        android:text="Devam"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/listView" />
+</android.support.constraint.ConstraintLayout>
