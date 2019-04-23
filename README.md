@@ -1,7 +1,5 @@
 # Otobus Otomasyon
 
-<img src="https://user-images.githubusercontent.com/33288151/56571147-00ecea80-65c5-11e9-8828-3e15889995d7.jpeg">
-
 ![Splash Screen](https://user-images.githubusercontent.com/33288151/56571147-00ecea80-65c5-11e9-8828-3e15889995d7.jpeg)
 
 ![Main Menu](https://user-images.githubusercontent.com/33288151/56571200-1eba4f80-65c5-11e9-8100-4638e02bde2c.jpeg)
